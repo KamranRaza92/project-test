@@ -5,13 +5,10 @@ body {
 h1 {  
   color: #333;  
 }  
-#auth-section, #app-section {  
-  margin-top: 20px;  
-  border: 1px solid #ccc;  
-  padding: 10px;  
-  max-width: 600px;  
+form {  
+  margin-bottom: 20px;  
 }  
-form input {  
+input {  
   margin: 5px;  
   padding: 5px;  
 }  
@@ -20,8 +17,8 @@ table {
   border-collapse: collapse;  
 }  
 th, td {  
-  padding: 8px;  
   border: 1px solid #ccc;  
+  padding: 8px;  
 }  
 button {  
   margin: 5px;  
